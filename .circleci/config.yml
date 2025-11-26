@@ -14,6 +14,7 @@ jobs:
     docker:
       - image: mcr.microsoft.com/dotnet/sdk:latest
 
+    working_directory: ~/ParkingManagementAPI
     # Add steps to the job
     # See: https://circleci.com/docs/guides/orchestrate/jobs-steps/#steps-overview & https://circleci.com/docs/reference/configuration-reference/#steps
     steps:
@@ -23,7 +24,7 @@ jobs:
       - run:
           name: "Print Working Directory"
           command: pwd
-          
+
       # Then simply use the dotnet container as you'd expect and run your tests
       - run:
           # Update this line with the directory that contains your tests project file
