@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ParkingManagementAPI.Tests/ParkingManagementAPI.Tests.csproj" Id="a45e1c8d-eb44-482d-a748-928ba57d6bb1" />
+  <Project Path="ParkingManagementAPI/ParkingManagementAPI.csproj" />
+</Solution>
