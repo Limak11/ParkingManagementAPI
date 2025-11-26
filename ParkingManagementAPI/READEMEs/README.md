@@ -16,7 +16,7 @@ Databases:
 Steps:
 	- Clone repository
 	- add appsettings.json and paste following code
-	- Run Update-database command ind package manager console
+	- Run Update-database command ind package manager console (make sure it runs for ParkingManagementAPI and not Tests)
 	- Build & run API
 	- Test endpoints with something like Postman
 
